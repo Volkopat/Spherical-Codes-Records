@@ -1,0 +1,6 @@
+# verify/ and polish/ need only these three
+numpy
+scipy
+mpmath
+# search/ also needs PyTorch with CUDA
+torch

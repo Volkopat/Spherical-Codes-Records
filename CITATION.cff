@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these codes or this software, please cite it as below."
+title: "Spherical Codes Records: Improved Entries for the Table of Spherical Codes"
+type: software
+authors:
+  - family-names: Patil
+    given-names: Digvijay
+date-released: 2026-11-23
+url: "https://github.com/Volkopat/Spherical-Codes-Records"
+repository-code: "https://github.com/Volkopat/Spherical-Codes-Records"
+license: MIT
+keywords:
+  - spherical codes
+  - Tammes problem
+  - discrete geometry
+  - numerical optimization
