@@ -3,3 +3,8 @@ __pycache__/
 *.tmp
 data/
 live/
+
+# never commit credentials
+upload_token
+*.token
+.env

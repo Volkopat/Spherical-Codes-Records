@@ -77,8 +77,8 @@ sixth to eighth decimal place, so each code is polished from several starting va
 The result agrees with the local optimum to about 1e-13; the last unit of the twelfth decimal place is not
 guaranteed.
 
-The first upload was made before this step existed. Polishing lowered every one of those codes; the comparison
-is in the README.
+The first upload was made before this step existed. Polishing lowered 65 of those 71 codes at twelve places; the
+comparison is in the README.
 
 ## 3. Verification
 
@@ -110,6 +110,9 @@ applies the same rule; every file in `codes/first_upload` was accepted by it on 
   two days of this work. Of the 86 codes the search saved as improvements, 14 had been overtaken or tied before
   upload and one was made redundant by another of our own codes; 71 were uploaded. Any entry here may since
   have been improved, by us or by others.
+- The polish finds the local optimum nearest to a code, not the best one nearby. Within hours of upload, 16 of
+  the 71 entries were improved by another contributor by between 2e-8 and 1.4e-4, so better optima exist close
+  to those codes that this search did not reach.
 - Thirty targets of the third run were skipped because their starting codes could not be downloaded at the time,
   and were never tried.
 - The search scripts compare against a copy of the table saved when a run starts, which goes stale during the

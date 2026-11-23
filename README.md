@@ -10,9 +10,14 @@ as large as possible, that is, to make the largest cosine as small as possible.
 
 - **23 November 2026, first upload.** 71 codes in dimensions 6 to 31, with 36 to 215 points, were accepted into
   the table. Each lowers the listed cosine of the minimal angle, 20 of them by more than 1e-3.
-- **Polished versions.** A final polish lowered 65 of the 71 further, by between 1e-11 and 5e-5; the other six
-  were already at a local optimum to twelve places. The polished codes are in `codes/polished` and were
-  prepared for a second upload on the same day.
+- **23 November 2026, second upload.** A final polish lowered 65 of the 71 further, by between 1e-11 and 5e-5;
+  the other six were already at a local optimum to twelve places. The polished codes, in `codes/polished`, were
+  uploaded the same day.
+- **Snapshot, 23 November 2026, 23:05 UTC.** 55 of the 71 are the current table entries, credited there as
+  "Digvijay Patil, 2026" with a link to this repository. The other 16 have since been improved by Vadim Borisov,
+  by between 2e-8 and 1.4e-4: (d, n) = (6, 63), (6, 115), (6, 127), (8, 79), (8, 119), (9, 102), (10, 85),
+  (10, 88), (10, 89), (10, 115), (11, 215), (13, 209), (22, 53), (24, 70), (26, 67) and (31, 65). The table
+  values and references at that time are in `results/table_snapshot_2026-11-23_2305Z.csv`.
 
 The table changes quickly, so any of these entries may since have been improved, by us or by others. The live
 table is the authority; this repository records what was uploaded and how it was obtained.
